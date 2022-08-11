@@ -1,11 +1,5 @@
 version = 1
 
-exclude_patterns = [
-  "tests/**/*.py",
-  "profiling/**/*.py",
-  "**/test_*.py"
-]
-
 [[analyzers]]
 name = "python"
 enabled = true
